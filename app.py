@@ -38,7 +38,7 @@ iface = gr.Interface(
     inputs=[gr.Image(type="pil"), gr.Slider(minimum=1, maximum=4, value=2, label="Upscale")],
     outputs="image",
     title="GFPGAN 图片修复",
-    description="上传一张图片并选择放大倍数来修复图片"
+    description="上传一张图片并选择放大倍数来修复图片",
     theme='Kasien/ali_theme_custom',
     css="footer {visibility: hidden}",
     allow_flagging="never"
